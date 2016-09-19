@@ -1,0 +1,118 @@
+.navbar-header {
+    width: 100%;
+    background-color: #000;
+    color: #AAA;
+    height: 40px;
+    line-height: 40px;
+    font-size: 25px;
+}
+.panel-heading {
+    background-color: #428BCA;
+    border-color: #428BCA;
+    color: #FFF;
+    height: 50px;
+    border-radius: 5px;
+    width: 330px;
+    line-height: 50px;
+    font-size: 25px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.left{
+    float: left;
+}
+.right {    
+    float: left;
+    width: 50%;
+    margin-left: 100px;
+    margin-top: -140px;
+}
+.right-manage, #manage {
+    width: 600px;
+}
+.btn-apply {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    height: 40px;
+    width: 100px;
+}
+.add-btn {
+    background: transparent none repeat scroll 0% 0%;
+    padding: 20px 20px;
+    outline: medium none;
+    border: none;
+    width: 330px;
+    cursor: pointer;
+}
+.left-list, .right-manage {
+    border: 1px solid rgb(66, 139, 202);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.tip {
+    line-height: 330px;
+    font-size: 30px;
+    text-align: center;
+    width: 600px;
+}
+.edit, .sub-edit {
+    border-bottom: 1px solid #D9EDF7;
+    margin: 0px;
+    display: table;
+    padding: 15px;
+    width: 300px;
+}
+.input-text {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 28px;
+    border-collapse: separate;
+    text-indent: 5px;
+}
+.edit-text, .sub-edit-text {
+    border: 1px solid rgb(239, 153, 1);
+    border-radius: 3px;
+    height: 30px;
+    line-height: 30px;
+    width: 280px;
+}
+.sub-edit-text {
+    width: 260px;
+    margin-left: 20px;
+}
+.input-edit {
+    border: 0px none;
+    line-height: 30px;
+}
+
+.input-text, .sub-input-text {
+    border: 0;
+    text-indent: 5px;
+}
+.sub-input-text {
+    width: 150px;
+}
+.btn-cancel {
+    color: #FFF;
+    background-color: #5BC0DE;
+    border-color: #46B8DA;
+    padding: 6px 7px;
+    cursor:pointer;
+}
+.btn-save {
+    background-color: #5CB85C;
+    border-color: #398439;
+    padding: 6px 12px;
+    cursor:pointer;
+}
+.menu-setting{
+    border-bottom: 1px solid #D9EDF7;
+    height: 50px;
+    line-height: 50px;
+}
+.set, .add, .span-edit, .del {
+    float: right;
+    color: #5BC0DE;
+    cursor: pointer;
+}

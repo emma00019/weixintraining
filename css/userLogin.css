@@ -1,0 +1,81 @@
+.loginForm{
+      height: 100%;
+      background: #FFF5EE;
+  }
+  .username{
+      margin-left: 7%;
+      margin-top: 60px
+  }
+  .password{
+      margin-left: 7%;
+      margin-top: 50px;
+  }
+  .login_button {
+      margin-left: 38%;
+      margin-top: 40px;
+      height: 112px;
+      border-radius: 5px;
+      width: 110px;
+      background: #FFEFDB;
+      font-size: 48px;
+  }
+  .input{
+      width: 620px;
+      height: 66px;
+      border-radius: 2px;
+      font-size:45px;
+  }
+  .tag
+  {
+      height: 50%;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .label{
+    font-size:45px;
+  }
+
+  .main{
+      height: 100%;
+      background: #FFFFF0;
+  }
+
+  .div_errorMsg
+  {
+    margin-top: 40px;
+  }
+  .errorMsg{
+    background: red;
+    display: block;
+    width:960px;
+    text-align: center;
+  }
+  .show
+  {
+    font-size: 70px;
+    height:150px;
+    line-height: 150px;
+    color:#FFB6C1;
+  }
+
+  .margin_div
+  {
+    height: 150px;
+  }
+  .userInfo{
+    border: 1px solid;
+    background: white;
+    width: 80%;
+    margin-left: 10%;
+    margin-top:100px;
+    height: 300px;
+    text-align: left;
+  }
+  .mes{
+    margin-left:50%;
+    font-size: 50px;
+    color:#DB7093;
+  }
+  .divMes{
+    margin-top:10%;
+  }

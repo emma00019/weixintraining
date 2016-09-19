@@ -1,0 +1,33 @@
+.table {
+          width: 100%;
+          font-size: 14px;
+          background-color: #fff;
+          text-align: center;
+          border-top: 1px solid #d3d3d3;
+          border-bottom: 1px solid #e6e6e6;
+        }
+
+.thead {
+          display: table-header-group;
+          vertical-align: middle;
+          border-color: inherit;
+        }
+
+.thead .table_cell {
+                      height: 40px;
+                      background-color: #f4f5f9;
+                      border-bottom: 1px solid #d3d3d3;
+                      line-height: 40px;
+                      border-left: none;
+                      border-right: 1px solid #d3d3d3;
+                    }
+
+.tbody {
+          display: table-row-group;
+          vertical-align: middle;
+          border-color: inherit;
+        }
+        
+.viewDetail{
+          cursor: pointer;
+        }

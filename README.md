@@ -1,2 +1,0 @@
-# weixintraining
-weixintraining
