@@ -5,6 +5,7 @@
     - 注册并认证企业号->申请成为服务商->开发套件和应用->发布套件和应用->套件和应用被推荐
     - 也就是我们需要是认证过的企业号，然后申请成为开发商，然后开发套件和应用，最后发布。需要使用我们套件里面应用的企业号，授权给我们套件里面的应用，授权完成后，我们保存该企业号中的相关信息
         如果一个企业号中有订单生成，推送事件到我们指定的url里，我们根据企业号得到企业相关信息，然后发送消息。
+
 ## 企业号和公众号的区别
     - 注：
         - unauthorized subscription number 未认证订阅号
@@ -103,7 +104,9 @@
         ```
 
 # 主要接口的区别
+
 ## 获取用户信息
+
     ### URL
         - 公众号
             **GET** https://api.weixin.qq.com/cgi-bin/user/info?access_token=ACCESS_TOKEN&openid=OPENID&lang=zh_CN
@@ -112,6 +115,7 @@
                 https://open.weixin.qq.com/connect/oauth2/authorize?appid=CORPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect
             - 根据code获取成员信息
                 **GET** https://qyapi.weixin.qq.com/cgi-bin/user/getuserinfo?access_token=ACCESS_TOKEN&code=CODE
+
     ### 返回值
         - 公众号
 
